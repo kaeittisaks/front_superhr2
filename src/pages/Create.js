@@ -714,7 +714,7 @@ export default function BlogPage() {
                     href="#"
                     onClick={(e) => {
                       e.preventDefault();
-                      const password = prompt('กรุณากรอกรหัสผ่าน เพื่อเข้าสู่ Database 📝');
+                      const password = prompt('กรุณากรอกรหัสผ่าน เพื่อเข้าสู่ Database 📝 (PassWord : 1234)');
                       if (password === '1234') { // เปลี่ยน 'your_password' เป็นรหัสผ่านที่คุณต้องการ
                         window.open('data', '_blank');
                       }
